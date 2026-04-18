@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>Fun Bot</title>
+ <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="app">
+ <h1>Fun Bot 🤖</h1>
+<p style="text-align:center; opacity:0.7;">
+Μίλα μου ή πάτα μια ερώτηση !!! 👇
+</p>
+<div id="chatBox" class="chat-box">
+
+ <div class="message bot">
+  Κάνε μια ερώτηση!
+ </div>
+
+</div>
+ <div class="buttons">
+ <button data-answer="Εσύ είσαι ο πιο αστείος 😂">Ποιος είναι ο πιο αστείος;</button>
+ <button data-answer="Ναι, αλλά όχι πολύ αργά 😅">Να βγω σήμερα;</button>
+ <button data-answer="Θες ύπνο και σουβλάκι.">Τι mood έχω;</button>
+ </div>
+ <div class="input-area">
+ <textarea 
+  id="userInput"
+  placeholder="Γράψε κάτι..."
+  rows="1"
+></textarea>
+ <button id="askBtn">Ρώτα</button>
+ </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
